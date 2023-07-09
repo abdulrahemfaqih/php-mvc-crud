@@ -15,9 +15,12 @@
          <a class="navbar-brand me-auto fs-4" href="<?= BASEURL ?>" style="color: white; margin-left: 1rem;">PHP MVC</a>
       </div>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-         <ul class="navbar-nav">
+         <ul class="navbar-nav" style="margin-right: 8rem;">
             <li class="nav-item">
                <a class="nav-link active fs-5" aria-current="page" href="<?= BASEURL ?>" style="color: white;">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link fs-5" href="<?= BASEURL ?>/mahasiswa" style="color: white;">Mahasiswa</a>
             </li>
             <li class="nav-item">
                <a class="nav-link fs-5" href="<?= BASEURL ?>/about" style="color: white;">About</a>
