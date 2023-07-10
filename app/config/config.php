@@ -9,6 +9,7 @@ define("BASEURL_JS", "http://localhost/belajarphp/phpmvc/public/js/");
 define("BASEURL_IMG", "http://localhost/belajarphp/phpmvc/public/img/");
 define("BASEURL_TAMBAH", "http://localhost/belajarphp/phpmvc/public/mahasiswa/tambah");
 define("BASEURL_HAPUS", "http://localhost/belajarphp/phpmvc/public/mahasiswa/hapus");
+define("BASEURL_NODEMODULE", "http://localhost/belajarphp/phpmvc/node_modules/");
 
 // database
 define("DB_HOST", "localhost");
