@@ -7,6 +7,8 @@ define("BASEURL_BOOTSTRAP_CSS", "http://localhost/belajarphp/phpmvc/public/boots
 define("BASEURL_CSS", "http://localhost/belajarphp/phpmvc/public/css/");
 define("BASEURL_JS", "http://localhost/belajarphp/phpmvc/public/js/");
 define("BASEURL_IMG", "http://localhost/belajarphp/phpmvc/public/img/");
+define("BASEURL_TAMBAH", "http://localhost/belajarphp/phpmvc/public/mahasiswa/tambah");
+define("BASEURL_HAPUS", "http://localhost/belajarphp/phpmvc/public/mahasiswa/hapus");
 
 // database
 define("DB_HOST", "localhost");
