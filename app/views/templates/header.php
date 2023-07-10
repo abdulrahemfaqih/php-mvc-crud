@@ -15,7 +15,7 @@
          <a class="navbar-brand me-auto fs-4" href="<?= BASEURL ?>" style="color: white; margin-left: 1rem;">PHP MVC</a>
       </div>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-         <ul class="navbar-nav" style="margin-right: 8rem;">
+         <ul class="navbar-nav" style="margin-right: 8rem;display:flex;gap: 20px;">
             <li class="nav-item">
                <a class="nav-link active fs-5" aria-current="page" href="<?= BASEURL ?>" style="color: white;">Home</a>
             </li>
