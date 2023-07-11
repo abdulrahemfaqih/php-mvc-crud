@@ -7,7 +7,7 @@
    <div class="row">
       <div class="col-lg-6">
          <!-- button modal -->
-         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal" style="margin-bottom: 20px;">
+         <button type="button" class="btn btn-primary tommbolTambahData" data-bs-toggle="modal" data-bs-target="#formModal" style="margin-bottom: 20px;">
             Tambah
          </button>
          <!-- modal -->
@@ -21,6 +21,7 @@
                   <div class="modal-body">
                      <!-- form -->
                      <form action="<?= BASEURL_TAMBAH ?>" method="post">
+                        <input type="hidden" name="id" id="id">
                         <div class="form-group">
                            <label class="mb-1" for="nama" style="margin-left: 2px;">Nama</label>
                            <input type="text" class="form-control" id="nama" placeholder="nama mahasiswa" name="nama">
@@ -62,6 +63,7 @@
                   <div>
                      <a class="btn btn-primary btn-sm" href="<?= BASEURL; ?>/mahasiswa/detail/<?= $mhs["id"] ?>">Detail</a>
                      <a class="btn btn-danger btn-sm" href="<?= BASEURL; ?>/mahasiswa/hapus/<?= $mhs["id"] ?>" onclick="return confirm('yakin ingin dihapus?')" id="hapus">Hapus</a>
+                     <a class="btn btn-warning btn-sm tampilModalUbah" data-bs-toggle="modal" data-bs-target="#formModal" href="<?= BASEURL; ?>/mahasiswa/ubah/<?= $mhs["id"] ?>" data-id="<?= $mhs["id"] ?>">Ubah</a>
                   </div>
                </li>
             <?php endforeach; ?>
